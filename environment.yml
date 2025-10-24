@@ -1,0 +1,24 @@
+# environment.yml
+name: clinical-lay-lora
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=2.1
+  - cudatoolkit
+  - pip
+  - pip:
+      - transformers==4.41.2
+      - datasets==2.20.0
+      - accelerate==0.30.0
+      - peft==0.11.1
+      - rouge-score==0.1.2
+      - evaluate==0.4.1
+      - nltk==3.8.1
+      - sentencepiece==0.1.99
+      - pandas
+      - matplotlib
+      - tqdm
+      - scikit-learn
