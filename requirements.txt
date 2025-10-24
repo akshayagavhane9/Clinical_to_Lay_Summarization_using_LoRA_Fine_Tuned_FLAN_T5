@@ -1,0 +1,15 @@
+# requirements.txt
+# Tested on Python 3.10–3.12, CUDA GPU recommended (Colab/VSCode)
+transformers==4.41.2
+datasets==2.20.0
+accelerate==0.30.0
+peft==0.11.1
+torch>=2.1
+rouge-score==0.1.2
+evaluate==0.4.1
+nltk==3.8.1
+sentencepiece==0.1.99
+pandas
+matplotlib
+tqdm
+scikit-learn
