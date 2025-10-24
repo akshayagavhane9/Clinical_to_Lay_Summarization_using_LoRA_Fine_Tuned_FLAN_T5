@@ -107,18 +107,6 @@ Flesch	27.3	20.9	-24 % (more medically precise)
 
 Example input:
 “Lymphatic filariasis is a mosquito-borne disease caused by filarial worms…”
-
-| Mode     | Summary                                                                     | Latency (s) |
-| -------- | --------------------------------------------------------------------------- | ----------- |
-| Truncate | Lymphatic filariasis is a mosquito-borne disease caused by filarial worms … | 2.3 s       |
-| Chunk    | Same content processed across 8 chunks → smoother coverage                  | 10.2 s      |
-
-
-
-# 🩺 Inference Demo (Truncate vs Chunk)
-
-Example input:
-“Lymphatic filariasis is a mosquito-borne disease caused by filarial worms…”
 | Mode     | Summary                                                                     | Latency (s) |
 | -------- | --------------------------------------------------------------------------- | ----------- |
 | Truncate | Lymphatic filariasis is a mosquito-borne disease caused by filarial worms … | 2.3 s       |
@@ -147,4 +135,5 @@ You already logged in in Colab:
 
 ``model.push_to_hub("akshayagavhane999/flan-t5-small-clinical-translator-lora")
 tokenizer.push_to_hub("akshayagavhane999/flan-t5-small-clinical-translator-lora")``
+
 
